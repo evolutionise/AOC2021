@@ -18,7 +18,8 @@ namespace AOC2021
 
         private static int Day2()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return Environment.ExitCode;
         }
     }
 }
