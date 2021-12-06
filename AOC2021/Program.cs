@@ -11,15 +11,9 @@ namespace AOC2021
             return args[0] switch
             {
                 "1" => Day1.Execute(),
-                "2" => Day2(),
+                "2" => Day2.Execute(),
                 _ => throw new ArgumentOutOfRangeException(),
             };
-        }
-
-        private static int Day2()
-        {
-            //throw new NotImplementedException();
-            return Environment.ExitCode;
         }
     }
 }

@@ -8,7 +8,6 @@ namespace AOC2021
     {
         public static int Execute()
         {
-            Console.WriteLine("Hello World!");
             var cats = Directory.GetCurrentDirectory();
             var meow = File.ReadAllLines("./InputFiles/day1.txt");
 
