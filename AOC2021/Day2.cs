@@ -43,11 +43,13 @@ namespace AOC2021
     {
         public int X;
         public int Y;
+        public int Aim;
 
         public Coordinates()
         {
             X = 0;
             Y = 0;
+            Aim = 0;
         }
 
         public void Move(Direction direction, int value)
@@ -55,15 +57,15 @@ namespace AOC2021
             switch (direction)
             {
                 case Direction.forward:
+                    X += value * Aim;
                     Y += value;
                     break;
                 case Direction.down:
-                    X += value;
+                    Aim += value;
                     break;
                 case Direction.up:
-                    X -= value;
+                    Aim -= value;
                     break;
-
             }
         }
     }
