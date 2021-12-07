@@ -12,6 +12,7 @@ namespace AOC2021
             {
                 "1" => Day1.Execute(),
                 "2" => Day2.Execute(),
+                "3" => Day3.Execute(),
                 _ => throw new ArgumentOutOfRangeException(),
             };
         }

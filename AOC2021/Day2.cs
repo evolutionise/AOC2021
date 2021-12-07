@@ -9,7 +9,6 @@ namespace AOC2021
     {
         public static int Execute()
         {
-            var cats = Directory.GetCurrentDirectory();
             var meow = File.ReadAllLines("./InputFiles/day2.txt");
 
             var directions = meow.Select(x =>
